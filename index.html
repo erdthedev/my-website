@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Website Sederhana untuk Vercel">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Website Sederhana untuk Vercel" />
   <title>Website Vercel</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Selamat Datang di Website Saya</h1>
+  <header class="fade-in">
+    <h1 id="greeting">Selamat Datang di Website Saya</h1>
     <p>Website ini di-hosting di <strong>Vercel</strong></p>
   </header>
 
   <main>
-    <button id="clickBtn">Klik Saya</button>
+    <button id="clickBtn" class="pulse">Klik Saya</button>
     <p id="message"></p>
   </main>
 
   <footer>
-    <p>© 2025 Dibuat dengan ❤️</p>
+    <p id="clock"></p>
+    <p>© 2025 Dibuat Oleh Erdinus</p>
   </footer>
 
   <script src="script.js"></script>
